@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h1 {
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    color: #ff4d6d;
+    font-weight: bold;
+}
